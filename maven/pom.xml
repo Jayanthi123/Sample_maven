@@ -11,6 +11,7 @@
     <properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+	    <project.artifactId>maven</project.artifactId>
 
 		<mule.version>3.9.0</mule.version>
     	<mule.tools.version>1.2</mule.tools.version>
@@ -66,7 +67,8 @@
 		<workerType>Micro</workerType>
 		<redeploy>true</redeploy>
 		<environment>Sandbox</environment>
-	
+			<application>target/maven-1.0.0-SNAPSHOT.zip</application>
+		<applicationName>${project.artifactId}</applicationName>
 	</configuration>
 	<executions>
 		<execution>
