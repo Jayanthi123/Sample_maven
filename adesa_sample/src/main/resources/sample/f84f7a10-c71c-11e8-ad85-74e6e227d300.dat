@@ -1,0 +1,23 @@
+<EAMProject>			
+	<Project>90002</Project>
+	<ProjectStatus>O</ProjectStatus>
+	<ProjectDescription>400 Series DH Elec Controls U</ProjectDescription>		
+	<Tasks>		
+		<Task>	
+			<Task_Number>E92</Task_Number>
+			<Task_Description>Expenses</Task_Description>
+			<Task_Status>+</Task_Status>
+			<AssetTag>C090001B</AssetTag>
+			<CostCode>120-88200100-9002</CostCode>
+			<CostCodeDescription>A Series Development Supplies</CostCodeDescription>
+		</Task>	
+		<Task>	
+			<Task_Number>E93</Task_Number>
+			<Task_Description>Expenses - Others</Task_Description>
+			<Task_Status>-</Task_Status>
+			<AssetTag>C0900012</AssetTag>
+			<CostCode>120-88210101-9002</CostCode>
+			<CostCodeDescription>PSCA Supply Chain Maint Matls Mach Equip</CostCodeDescription>
+		</Task>	
+	</Tasks>		
+</EAMProject>
