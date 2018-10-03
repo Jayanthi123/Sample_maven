@@ -66,8 +66,7 @@
 		<workerType>Micro</workerType>
 		<redeploy>true</redeploy>
 		<environment>Sandbox</environment>
-		<application>target/maven-1.0.0-SNAPSHOT.zip</application>
-		<applicationName>maven</applicationName>
+	
 	</configuration>
 	<executions>
 		<execution>
