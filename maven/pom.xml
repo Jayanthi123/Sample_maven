@@ -14,7 +14,6 @@
 
 		<mule.version>3.9.0</mule.version>
     	<mule.tools.version>1.2</mule.tools.version>
-	<app.name>maven</app.maven>
 	</properties>
 
 	<build>
@@ -67,8 +66,8 @@
 		<workerType>Micro</workerType>
 		<redeploy>true</redeploy>
 		<environment>Sandbox</environment>
-		<application>target\maven-1.0.0-SNAPSHOT.zip</application>
-		<applicationName>${app.name}</applicationName>
+		<application>target/maven-1.0.0-SNAPSHOT.zip</application>
+		<applicationName>maven</applicationName>
 	</configuration>
 	<executions>
 		<execution>
