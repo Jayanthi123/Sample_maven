@@ -74,7 +74,9 @@
 		<executions>
 		<execution>
 			<phase>initialize</phase>
-			
+			<goals> 
+				<goal>deploy</goal>
+			</goals>
 		</execution>
 	</executions>
 		
